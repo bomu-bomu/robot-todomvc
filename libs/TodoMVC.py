@@ -86,20 +86,3 @@ class TodoMVC:
         for i in todo_lists:
             list.append(i.find_element_by_tag_name("label").text)
         return list
-
-
-if __name__ == "__main__":
-    try:
-        todo = TodoMVC("https://todomvc.com/examples/react")
-        todo.create_new_task("task1")
-        todo.todo_is_empty()
-        todo.there_are_task(["test1", "test2"])
-        todo.done_task("test1")
-        todo.clear_completed_button_appear()
-        todo.is_task_completed("test1")
-        print(todo.get_item_amount())
-
-    except Exception as err:
-        print(err)
-    finally:
-        todo.quit()
