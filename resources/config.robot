@@ -1,2 +1,2 @@
 *** Variables ***
-${URL}		https://todomvc.com/examples/react
+${URL}      https://todomvc.com/examples/react
