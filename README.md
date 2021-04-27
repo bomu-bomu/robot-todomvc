@@ -13,7 +13,7 @@ Preset Robotframework environment
 This will set up ROBOT_OPTIONS before running
 
 ```
-source .initialize.sh
+source .initial.sh
 ```
 
 ## Running
